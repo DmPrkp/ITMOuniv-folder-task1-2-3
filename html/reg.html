@@ -1,0 +1,78 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- MAIN MENU-->
+	<div class="menu" align="center">
+		<ul>
+			<li id="Main">
+				<a href="../index.html">
+					Main page
+				</a></li>
+			<li id="picNav">
+				<a href="picNav.html">
+					Navigation
+				</a></li>
+			<li id="hitory">
+				<a href="about.html">
+					History
+				</a></li>
+			<li id="Log">
+				<a href="logIn.html">
+					Log In
+				</a></li>
+			<li id="reg">
+				<a href="reg.html">
+					Registration
+				</a></li>
+		</ul>
+	</div>		
+<hr>
+
+<!-- PAGE CONTENT-->
+<div align="center" class="content">
+	<form action="#" name="regForm">
+		<fieldset name="regField" class="form">
+			<legend> <em class="title">Registration form</em> </legend>
+				<p>Enter login: <br>
+					<input 
+					type="text" 
+					placeholder="pupkinMadGuy" 
+					autofocus 
+					required 
+					minlength="2" 
+					maxlength="15">
+				</p>
+				<p>Enter email: <br>
+					<input 
+					type="email" 
+					placeholder="pupking@mail.ru" 
+					required 
+					minlength="6" 
+					maxlength="30">
+				</p> 
+				<p>Enter password: <br>
+					<input 
+					type="password" 
+					required 
+					minlength="5" 
+					maxlength="16"><br>
+					Repeat password:<br>
+					<input 
+					type="password" 
+					required 
+					minlength="3" 
+					maxlength="16">
+				</p>
+				<input type="submit" value="Log In">
+				<input type="reset" value="Reset">
+		</fieldset>				
+	</form>	
+</div>
+	<script src="script.js"></script>
+</body>
+</html>
