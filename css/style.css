@@ -1,69 +1,60 @@
 html {
-	font-family: "Consolas";	
+    font-family: "Consolas";
 }
 
-body {
-	/*background: url(../picture/s1200.jpg) no-repeat center fixed;*/
-}
-
-
-
-.content {
-	background: url(../picture/s1200.jpg) no-repeat fixed;
-	background-size: 100%;
-	/*background-color: #6cbf0d;*/
-	min-height: 700px;
+.menu {	
+	padding: 10px;	
 }
 
 .form {
-	background-color: #66ccff;
-	width: 300;
-	outline: none;
-	border: 3px solid green;	
+    background-color: #66ccff;
+    width: 300px;
+    outline: none;
+    border: 3px solid green;
 }
 
-.text {
-	background-color: skyblue;
-}
 
-form {
-	/*margin: 70px;	*/
-}
-
-.title {	
-	text-shadow: 2px 2px grey;
-	font-weight: bold;
-	font-size: 20px ;
+.title {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 input:focus {
-  background-color: lightblue;
+    background-color: lightblue;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 26px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-ul li {	
-	display: inline;
-	margin: 1px;
-	padding: 10px 20px;
-	background-color: #4CAF50;
-	text-decoration: none;
-	color: white;
+ul li {
+    display: inline;
+    margin: 1px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    text-decoration: none;
+    color: white;
 }
 
 a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 a:focus {
-	color: black;
+    color: black;
+}
+
+.content {
+    background-image: url("../picture/s1200.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
 }
